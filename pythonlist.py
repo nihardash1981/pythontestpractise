@@ -8,5 +8,7 @@ print(l2[1])
 print(l2[-1])
 print(l1[1:3]) #slicing the oobjects list
 print(l1[1:-2])
-
+print(l2,type(l2),id(l2))
+l2[2]=23.89
+print(l2,type(l2),id(l2)) #mutable list object
 
