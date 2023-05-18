@@ -46,6 +46,7 @@ print(l1,type(l1))
 l1.insert(3,True)
 print(l1,type(l1))
 
+
       
 
 
