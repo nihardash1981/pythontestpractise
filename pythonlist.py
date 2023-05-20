@@ -45,6 +45,54 @@ l1.insert(2,"monoli")
 print(l1,type(l1))
 l1.insert(3,True)
 print(l1,type(l1))
+####################list remove function################
+l1=[10,20,30,40,20,40,"donali","pyhton",30.40]
+print(l1,type(l1))
+l1.remove(20) ###first occurence of 20 will be removed########
+print(l1,type(l1))
+##########l1.remove(100) ####100 not in the list####  
+######print(l1,type(l1)) ###output is value error####
+
+###########list pop function########
+l1=[10,20,30,40,20,50,10]
+print(l1)
+l1.pop(6)
+print(l1,type(l1))
+l1.pop(-2)
+print(l1,type(l1))
+
+########################pop function with index #########
+l1=[10,"nihar","arbaz","python",12,2+1j]
+print(l1)
+l1.pop()###last index data will be removed########
+print(l1)
+
+#####clear function#######
+l1=[10,"akash","pandit",2+3j,12]
+l1.clear()
+print(l1,len(l1))
+
+#######delete function in list#######
+l1=[10,20,30,40,50,90,60]
+del(l1[1:3])
+print(l1)
+###count function in list#######
+l1=[10,20,30,40,50,90,40,70]
+print(l1.count(40))
+
+###index function in list#######
+l1=[10,20,10,20,40,30,40,50,90,10,40,70,30]
+l1.index(40)
+print(l1.index(40))
+
+######copy function in list###
+
+
+
+
+
+
+
 
 
       
