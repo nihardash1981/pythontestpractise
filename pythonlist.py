@@ -120,6 +120,10 @@ print(lst) #print in descending order##
 lst=[10,20,40,8,45,23,-12,-65,-54,-98,-12]
 lst.sort(reverse=True) #sorting with reverse order##
 print(lst)
+lst=[10,13,12,98,67,23.76,98,-23,-45]
+lst.sort(reverse=False) #sorting with reverse order##
+print(lst) #print in descending order##
+
      
      
 
