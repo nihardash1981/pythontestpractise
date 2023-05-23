@@ -129,9 +129,14 @@ lst1=["apple","guava","jackfruit","orange","banana"]
 lst2=[12,45,98,90,43]
 lst3=["bitroot","cinamonkey","chocolate","sand"]
 lst1.extend(lst2) #extend function can take only one value in list##
-lst2.extend(lst3) #extend function can take only one value##
+lst1.extend(lst3) #extend function can take only one value##
 print(lst1) #print
-print(lst2)
+
+lst1=["apple","guava","jackfruit"]
+lst2=[10,20,30,98,78,90]
+lst3=[12,23,43,65,87]
+lst1=lst1+lst2+lst3 #plus function also give the details like extend###
+print(lst1)
 
 
      
