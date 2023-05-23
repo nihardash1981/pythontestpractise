@@ -103,6 +103,25 @@ l1.append("python")
 print(l1,id(l1))
 l2.append("dsc")
 print(l2,id(l2))
+#############reverse  function in list#######
+lst=[10,"python",23.44,"ara","hyderabad"]
+lst.reverse()
+print(lst,id(lst))
+########### sort function in list#######
+lst=[10,0,1,2,3,4,5,6,7,8,9,10,-23,-46,-48]
+lst.sort()
+print(lst) #print in ascending order##
+lst=["apple","guava","jackfruit","orange","banana","stberry","mberry"]
+lst.sort() #print
+print(lst) #print in aescending order##
+lst=[10,20,30,40,-45,-67,-1,-34]
+lst.reverse() #reverse
+print(lst) #print in descending order##
+lst=[10,20,40,8,45,23,-12,-65,-54,-98,-12]
+lst.sort(reverse=True) #sorting with reverse order##
+print(lst)
+     
+     
 
 
 
