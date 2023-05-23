@@ -124,6 +124,16 @@ lst=[10,13,12,98,67,23.76,98,-23,-45]
 lst.sort(reverse=False) #sorting with reverse order##
 print(lst) #print in ascending order##
 
+##extend function in the list#####
+lst1=["apple","guava","jackfruit","orange","banana"]
+lst2=[12,45,98,90,43]
+lst3=["bitroot","cinamonkey","chocolate","sand"]
+lst1.extend(lst2) #extend function can take only one value in list##
+lst2.extend(lst3) #extend function can take only one value##
+print(lst1) #print
+print(lst2)
+
+
      
      
 
