@@ -85,7 +85,26 @@ l1=[10,20,10,20,40,30,40,50,90,10,40,70,30]
 l1.index(40)
 print(l1.index(40))
 
-######copy function in list###
+######swallow copy function in list,oject same but adress diffrent###
+l1=[10,"python"]
+print(l1,id(l1))
+l2=l1.copy()
+print(l2,id(l2))
+l1.append("python")
+l2.append("datasciences")
+print(l1,id(l1))
+print(l2,id(l2))
+#############deep copy function in list#######
+l1=[10,20,"python"]
+print(l1,id(l1)) 
+l2=l1 ###deepcopy with assignment operator
+print(l2,id(l2))
+l1.append("python")
+print(l1,id(l1))
+l2.append("dsc")
+print(l2,id(l2))
+
+
 
 
 
