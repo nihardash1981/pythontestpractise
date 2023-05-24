@@ -137,6 +137,29 @@ lst2=[10,20,30,98,78,90]
 lst3=[12,23,43,65,87]
 lst1=lst1+lst2+lst3 #plus function also give the details like extend###
 print(lst1)
+#####inner list function in list##
+lst=[11,"rossume",[10,20,30],[60,50,55],"apple"]
+print(lst) #print
+print(lst[0]) #first value of list
+print(lst[2])
+print(lst[2][1])
+print(lst[2][1])
+print(lst[2][-1])
+print(lst[2][-2]) #
+print(lst[-3][-2])
+print(lst[-3][-3]) 
+print(lst[-3][::-1])
+print(lst[3])
+print(lst[3].sort()) ##use sort function in list##
+print(lst[4])
+lst[2].append(14) #use append function in inner list###
+print(lst[2])
+lst[3].insert(2,25) #use insert function in inner list###
+print(lst[3])
+print(lst)
+
+
+
 
 
      
