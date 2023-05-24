@@ -157,6 +157,16 @@ print(lst[2])
 lst[3].insert(2,25) #use insert function in inner list###
 print(lst[3])
 print(lst)
+lst.pop(2) #remove inner list from list use pop ###
+print(lst)
+lst.pop(-2) #remove
+print(lst) #remove inner list from list use pop by negative values##
+l1=[18,16,19]
+l2=[67,23,12]
+lst.insert(2,l1) ##insert function added in list##
+print(lst)
+lst.append(l2)
+
 
 
 
