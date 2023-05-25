@@ -21,4 +21,6 @@ print(lst1,type(lst1)) ###convert tuple to list###
 t5=(10,20,30,40,50)
 t5.count(10)
 print(t5,type(t5))
+t5.index(10)
+print(t5,type(t5))
 
