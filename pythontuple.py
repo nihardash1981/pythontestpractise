@@ -18,3 +18,7 @@ tpl=tuple(lst)
 print(tpl,type(tpl)) ##class 'tuple convert list to tuple###
 lst1=list(tpl)
 print(lst1,type(lst1)) ###convert tuple to list###
+t5=(10,20,30,40,50)
+t5.count(10)
+print(t5,type(t5))
+
