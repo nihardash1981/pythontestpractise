@@ -7,3 +7,5 @@ d['st no']= 12
 d['name']="rossum"
 d['marks']=34.68
 print(d,type(d))
+d['cname']="OUCET"
+print(d,type(d)) #class dict function##
