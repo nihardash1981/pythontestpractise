@@ -10,8 +10,8 @@ fs2=frozenset(lst)
 print(fs2,type(fs2)) ##class 'frozenset no duplicate record##
 tpl=(10,20,30,40,10,"kvr","ram",True)
 print(tpl,type(tpl))
-fs3=frozenset(tpl
-print(fs3,type(fs3))) ##convert any type value into frozenset object##
+fs3=frozenset(tpl)
+print(fs3,type(fs3)) ##convert any type value into frozenset object##
 
 
 
