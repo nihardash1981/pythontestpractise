@@ -5,3 +5,5 @@ print("val of a=",a)
 print("val of b=",b)
 print("val of c=",c)
 print("sum=",c)
+
+
